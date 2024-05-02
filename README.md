@@ -7,7 +7,7 @@ STEP 2: Go to folder: cd uvdesk-docker and download UVdesk Open Source: wget htt
 
 STEP 3: unzip uvdesk-community-current-stable.zip
 
-STEP 4: For installation, set full permissions on folder uvdesk-community-v1.0.12: chmod 777 -R uvdesk-community-v1.0.12
+STEP 4: For installation, set full permissions on folder uvdesk-community-v1.0.12: chmod -R 777 uvdesk-community-v1.0.12
 
 STEP 5:docker-compose --file docker-compose.yml up -d
 
